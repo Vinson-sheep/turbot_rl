@@ -1,0 +1,7 @@
+*.pyc
+*.pkl
+*.pth
+*.bin
+*.npy
+*.mat
+log
