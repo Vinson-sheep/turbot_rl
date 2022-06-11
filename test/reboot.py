@@ -23,7 +23,7 @@ def odomCB(msg):
 if __name__ == '__main__':
 
     rospy.init_node("reboot_node")
-    scanSub = rospy.Subscriber("iris/scan", LaserScan, scanCB)
+    scanSub = rospy.Subscriber("/scan", LaserScan, scanCB)
     odomSub = rospy.Subscriber("/odom", Odometry, odomCB)
 
     while True:
