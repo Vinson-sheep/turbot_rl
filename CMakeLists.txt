@@ -170,7 +170,6 @@ catkin_install_python(PROGRAMS
   scripts/common/world.py
   scripts/common/game.py
   scripts/common/laser_filter_downsample.py
-  scripts/common/ddqn_new.py
   scripts/training_node.py
   scripts/testing_node.py
 
