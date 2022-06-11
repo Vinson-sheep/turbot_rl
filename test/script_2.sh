@@ -1,4 +1,3 @@
-
 #! /bin/bash 
 source /opt/ros/melodic/setup.bash
 source ~/software_var/catkin_ws/devel/setup.bash

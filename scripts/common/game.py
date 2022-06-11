@@ -178,7 +178,7 @@ class Game:
 
         self.setModelStatePub.publish(msg)
 
-        rospy.loginfo("initialize uav position.")
+        rospy.loginfo("initialize turbot position.")
 
         # clear world
         # if self.start_flag:
