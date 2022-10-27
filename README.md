@@ -78,6 +78,6 @@ source devel/setup.bash
 # open gazebo
 roslaunch turbot_rl setup.launch
 
-# starttraining 
-rosrun turbot_rl game_training.py
+# start training 
+rosrun turbot_rl training_node.py
 ```
